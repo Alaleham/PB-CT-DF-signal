@@ -1,0 +1,16 @@
+//*****Input parameter file for PbiSAXS.exe program*****
+1.Input_filename_base_in_GRD_format: D:\Data\Sample78_2145659R_34keV_6m_4mGy\2145659R_34keV_6m_stitched_grd\aproj.grd
+2.Output_filename_base_in_GRD_format: D:\Data\Additional_simulations_ForIEEE\Sample78_2145659R_34keV_6m_4mGy_NoTIENoFresnel\saxsOut\saxs_.grd
+3.Optional_TIE-hom_output_filename_base_in_GRD_format_(N_for_no_output): N
+4.Optional_reprojected_TIE-hom_output_filename_base_in_GRD_format_(N_for_no_output): N
+5.Number_of_CT_projection_angles_and_stride: 4800 1
+6.CT_angle_scan_range_(degrees): 180.0
+7.Image_trim(-)/pad(+)_parameters_iXLeft,_iXRight,_iYTop,_iYBottom_(pixels)_PadValue: 395 396 399 0 1.0
+8.Wavelength_(microns)_(0=read_from_file): 0.00003647
+9.Defocus_distance_(microns): 6000000
+10.Delta/beta_(TIE-hom,_Born-hom): 100 79
+11.X_and_Y_widths_of_Gauss_filter_in_detector_plane_(pixels): 15.8 7.9
+12.Regularization_parameter_for_Born-hom_(e.g._0.01): 0.0
+13.Calculate_Born-hom(0),_Tie+Born-hom(1)_or_Fresnel-hom(2)_retrieval: 0
+14.Number_of_parallel_worker_threads: 1//*****
+//*****!!!Don't forget to save this file after editing the parameters
