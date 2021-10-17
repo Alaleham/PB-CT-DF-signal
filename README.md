@@ -1,6 +1,7 @@
 # XArrayLibrary
 Shared XArray library source files
 PbiDF.cpp file contains code for extraction of dark-field signal from in-line phase-contrast images
+
 Here are the steps:
 1) Padded experimental projections to the nearest powers of 2 in both directions.
 2) TIE-hom retrieval from the padded projections.
