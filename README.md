@@ -1,5 +1,5 @@
-# XArrayLibrary
-Shared XArray library source files
+# PB-CT-DF-signal project
+Shared PB-CT-DF-signal project source files
 PbiDF.cpp file contains code for extraction of dark-field signal from in-line phase-contrast images
 
 Here are the steps:
